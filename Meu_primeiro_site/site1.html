@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Mac Lima</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+<style>
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? família=Sacramento&display=swap');
+@font-face {
+    font-family: 'Fonte-logo' ;
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+    
+}
+/* formatação do corpo*/
+body {
+    font-family: Arial,  sans-serif;
+    background-color: #dddddd;
+    color: rgba(0, 0, 0, 1);
+}
+div#interface {
+    width: 900px;
+    background-color: #cccccc;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    padding: 10px ;
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+a {
+    color: #606060;
+    text-decoration: none;
+}
+
+/* formatação do corpo fim */
+/* cabeçalho  inicio*/
+header#cabecalho img#icone{
+    position: absolute;
+    left: 780px;
+    top: 30px;
+}
+/*sim*/
+header#cabecalho hgroup{
+    height: 80px;
+    border-bottom:  1px  #606060 solid;
+}
+header#cabecalho h1 {
+    font-family: 'Fonte-logo', sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+/* cabeçalho  fim*/
+/* formatação de imagens com legendas */
+
+figure.foto-legenda {
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+figure.foto-legenda figcaption {
+    opacity: 0;
+    position:absolute ;
+    top:0px ;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+
+}
+figure.foto-legenda:hover figcaption{
+    opacity: 1;
+}
+p.legenda-t {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+h3.leg {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+    
+}
+/* formatação de menu*/
+
+
+section#corpo {
+    display: block;
+    width: 500px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
+}
+article#noticia-principal h2 {
+       font-size: 12pt;
+       color: #606060;
+       background-color: #dddddd;
+       padding: 5px 0px 5px 10px;
+       margin: 10px 0px 10px 0px;
+}
+header#cabecalho-artigo h1 {
+    font-family: 'Fonte-logo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+header#cabecalho-artigo h2 {
+    font-size: 13pt;
+    color: #cecece ; 
+    background-color: #ffffff;  
+    margin: 0px;
+}
+.direita {
+    text-align: right;
+}
+header#cabecalho-artigo h3 {
+    font-size: 12pt;
+    color: #000;
+}
+
+aside#lateral {
+    display: block;
+    width: 350px;
+    float: right;
+    background-color: #dddddd;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+}
+aside#lateral h1 {
+    font-family:'Fonte-logo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px;
+}
+aside#lateral h2 {
+    background-color: #606060;
+    font-size: 13pt;
+    color: #ffffff;
+    padding: 5px;
+}
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+footer#rodape p {
+    text-align: center;
+}
+li  {
+    list-style-type: none;
+}
+
+</style>
+</head>       
+<body>
+    <div id="interface"> 
+        <header id="cabecalho">
+            <hgroup>
+                <h1>Portifólio</h1>
+            </hgroup>   
+        </header>
+        <section  id="corpo">
+            <article id="noticia-principal">
+                <h2>Contatos</h2>
+                    <ul>
+                        <li><a  href="https://github.com/johnclecio/" target="_blank">GitHub</a></li>
+                        <li><a  href="https://www.linkedin.com/in/johnmaclima/" target="_blank">Linkedin</a></li>
+                        <li><a  href="https://www.youtube.com/c/johncleciofideleslima/videos"target="_blank">Youtube</a></li>
+                        <li><a  href="https://www.twitch.tv/mac5182" target="_blank">Twitch</a></li>
+                    </ul>
+                    <figure class="foto-legenda">
+                        <img src="https://i.ibb.co/LpjhcC4/john.jpg" alt="">
+                        <figcaption>
+                            <h3 class="leg">Platão</h3>
+                            <p class="legenda-t">Tente mover o mundo – o primeiro passo será mover a si mesmo.</p>
+                        </figcaption>
+                    </figure>
+                <h2>Cursos</h2>
+                <ul >
+                    <li style="font-size:15px">Microsoft Windows Server 2019 /12.5 horas<li>
+                    </li style="font-size:15px">Curso Linux / 35 horas</li>
+                    <li style="font-size:15px">Terminal Linux /1 hora</li>
+                    <li style="font-size:15px">Introdução ao Python /2 horas</li>
+                    <li style="font-size:15px">Introdução à programação com Python /8 horas</li>
+                    <li style="font-size:15px">Introdução ao banco de dados MySQL /30 min</li>
+                    <li style="font-size:15px">Introdução a criação de websites com HTML5 e CSS3 /6 horas</li>
+                    <li style="font-size:15px">Primeiros passos com .NET /7 horas</li>
+                    <li style="font-size:15px">Orientação a objetos em .NET /4 horas</li>
+                    <li style="font-size:15px">Construindo páginas para internet com Bootstrap /4 horas</li>
+                    <li style="font-size:15px">visuALG /5 horas</li>
+                    <li style="font-size:15px">Curso Redes / 50 horas</li>
+                    <li style="font-size:15px">Introdução à programação de computadores /2 horas</li>
+                    <li style="font-size:15px">Desvendando a Blockchain /20 horas</li>
+                    <li style="font-size:15px">Desvendando a Indústria 4.0 /20 horas</li>
+                    <li style="font-size:15px">Relacionamento Interpessoal / 10 horas</li>
+                    <li style="font-size:15px">Curso Inglês Básico I / 60 horas</li>
+                </ul>
+            </article>
+        </section>
+            <aside id="lateral">
+                <h1>Game Plays</h1>
+                <h2>Vídeos</h2>
+            <div>
+                <iframe width="350" height="250" src="https://www.youtube.com/embed/freQRP9QRRQ" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+                <h2>Novidades Aqui</h2>
+                <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
+                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1342667236&color=%23000000&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+                </iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                <a href="https://soundcloud.com/john-clecio" title="John Clecio" target="_blank" style="color: #cccccc; text-decoration: none;">John Clecio</a> 
+                · <a href="https://soundcloud.com/john-clecio/sets/mac" title="mac" target="_blank" style="color: #cccccc; text-decoration: none;">mac</a></div>
+            </aside>
+    <footer id="rodape">
+         <p>Copyright &copy; 2021 - by John Lima <br/>
+    </footer>
+</div>
+</body>
+</html>
