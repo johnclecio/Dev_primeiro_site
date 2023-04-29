@@ -15,8 +15,7 @@ Crie um arquivo index.html na pasta raiz do seu projeto.
 
 Adicione o código HTML básico no seu arquivo index.html. Aqui está um exemplo:
 
-php
-Copy code
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -27,29 +26,24 @@ Copy code
   </body>
 </html>
 Adicione e faça o commit do seu arquivo index.html:
-sql
-Copy code
+
 git add index.html
 git commit -m "Adiciona arquivo index.html"
 Faça o push das suas alterações para o GitHub:
-css
-Copy code
+
 git push origin main
 Adicione um arquivo README.md para documentar seu projeto:
-bash
-Copy code
+
 touch README.md
 Edite o arquivo README.md e adicione informações sobre o projeto.
 Copy code
 nano README.md
 Adicione e faça o commit do seu arquivo README.md:
-sql
-Copy code
+
 git add README.md
 git commit -m "Adiciona arquivo README.md"
 Faça o push das suas alterações para o GitHub:
-css
-Copy code
+
 git push origin main
 Acesse a página do seu repositório no GitHub e abra as configurações do GitHub Pages.
 
@@ -59,7 +53,6 @@ Aguarde alguns minutos para que o site seja publicado.
 
 Acesse o site do seu projeto em um navegador da web:
 
-arduino
-Copy code
+
 https://seu-nome-de-usuario.github.io/Dev_primeiro_site/
 Parabéns, você criou um site simples e o publicou na web usando o GitHub Pages!
